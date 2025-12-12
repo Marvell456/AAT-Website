@@ -46,5 +46,5 @@ This dashboard displays **live detection history**, **daily attendance summaries
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Marvell456/AAT-Website.git
 cd your-repo
