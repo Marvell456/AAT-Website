@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 1. ENVIRONMENT VARIABLES (CRUCIAL for security)
+.env
+# If you created one for the dashboard:
+.env.local
+
+# 2. PYTHON GENERATED FILES
+__pycache__/
+*.pyc
+*.log
+# Python virtual environment folder name (common)
+.venv/
+venv/
+
+# 3. NEXT.JS/NODE/NPM FILES (CRUCIAL for Next.js app)
+# Next.js build output
+.next/
+# Node modules directory
+node_modules/
