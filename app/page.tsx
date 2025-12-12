@@ -5,10 +5,10 @@ import { createClient } from "@supabase/supabase-js";
 import { format } from "date-fns";
 
 // Connect to Supabase
-const SUPABASE_URL = "https://huvynaxzhrejotvudojs.supabase.co"; 
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh1dnluYXh6aHJlam90dnVkb2pzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMwNDM4NTEsImV4cCI6MjA3ODYxOTg1MX0.RHwTZw0dm6HgCG2mshz9VKlTt0D4XJhKZ7LTzN7NTj0";
+const SUPABASE_URL = process.env.REACT_APP_SUPABASE_URL;
+const SUPABASE_KEY = process.env.REACT_APP_SUPABASE_KEY;
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Type safety (Makes sure that DB data is handled correctly)
 type Detection = {
