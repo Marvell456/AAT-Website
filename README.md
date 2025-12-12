@@ -1,9 +1,3 @@
-This is an excellent project combining computer vision (InsightFace), real-time processing, and database logging (Supabase). A well-structured README is essential for sharing it\!
-
-Here is a comprehensive README drafted for your project.
-
------
-
 # 🤖 InsightFace Real-Time Attendance Dashboard
 
 A full-stack, real-time application for monitoring and logging attendance using local video feed and facial recognition. It utilizes **InsightFace** for high-accuracy face detection and embedding, and **Supabase** for secure, real-time logging and display.
