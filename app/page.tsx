@@ -5,8 +5,8 @@ import { createClient } from "@supabase/supabase-js";
 import { format } from "date-fns";
 
 // Connect to Supabase
-const SUPABASE_URL = process.env.REACT_APP_SUPABASE_URL;
-const SUPABASE_KEY = process.env.REACT_APP_SUPABASE_KEY;
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_KEY!;
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
